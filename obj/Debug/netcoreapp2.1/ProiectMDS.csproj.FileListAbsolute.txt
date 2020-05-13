@@ -1,0 +1,119 @@
+C:\Users\User\source\repos\ProiectMDS\ProiectMDS\bin\Debug\netcoreapp2.1\ProiectMDS.deps.json
+C:\Users\User\source\repos\ProiectMDS\ProiectMDS\bin\Debug\netcoreapp2.1\ProiectMDS.runtimeconfig.json
+C:\Users\User\source\repos\ProiectMDS\ProiectMDS\bin\Debug\netcoreapp2.1\ProiectMDS.runtimeconfig.dev.json
+C:\Users\User\source\repos\ProiectMDS\ProiectMDS\bin\Debug\netcoreapp2.1\ProiectMDS.dll
+C:\Users\User\source\repos\ProiectMDS\ProiectMDS\obj\Debug\netcoreapp2.1\ProiectMDS.csprojAssemblyReference.cache
+C:\Users\User\source\repos\ProiectMDS\ProiectMDS\obj\Debug\netcoreapp2.1\ProiectMDS.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\ProiectMDS\ProiectMDS\obj\Debug\netcoreapp2.1\ProiectMDS.RazorAssemblyInfo.cache
+C:\Users\User\source\repos\ProiectMDS\ProiectMDS\obj\Debug\netcoreapp2.1\ProiectMDS.RazorAssemblyInfo.cs
+C:\Users\User\source\repos\ProiectMDS\ProiectMDS\obj\Debug\netcoreapp2.1\ProiectMDS.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\ProiectMDS\ProiectMDS\obj\Debug\netcoreapp2.1\ProiectMDS.AssemblyInfo.cs
+C:\Users\User\source\repos\ProiectMDS\ProiectMDS\obj\Debug\netcoreapp2.1\ProiectMDS.TagHelpers.input.cache
+C:\Users\User\source\repos\ProiectMDS\ProiectMDS\obj\Debug\netcoreapp2.1\ProiectMDS.TagHelpers.output.cache
+C:\Users\User\source\repos\ProiectMDS\ProiectMDS\obj\Debug\netcoreapp2.1\ProiectMDS.RazorCoreGenerate.cache
+C:\Users\User\source\repos\ProiectMDS\ProiectMDS\obj\Debug\netcoreapp2.1\Razor\Pages\About.g.cshtml.cs
+C:\Users\User\source\repos\ProiectMDS\ProiectMDS\obj\Debug\netcoreapp2.1\Razor\Pages\Contact.g.cshtml.cs
+C:\Users\User\source\repos\ProiectMDS\ProiectMDS\obj\Debug\netcoreapp2.1\Razor\Pages\Error.g.cshtml.cs
+C:\Users\User\source\repos\ProiectMDS\ProiectMDS\obj\Debug\netcoreapp2.1\Razor\Pages\Index.g.cshtml.cs
+C:\Users\User\source\repos\ProiectMDS\ProiectMDS\obj\Debug\netcoreapp2.1\Razor\Pages\Privacy.g.cshtml.cs
+C:\Users\User\source\repos\ProiectMDS\ProiectMDS\obj\Debug\netcoreapp2.1\Razor\Pages\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\User\source\repos\ProiectMDS\ProiectMDS\obj\Debug\netcoreapp2.1\Razor\Pages\Shared\_Layout.g.cshtml.cs
+C:\Users\User\source\repos\ProiectMDS\ProiectMDS\obj\Debug\netcoreapp2.1\Razor\Pages\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\User\source\repos\ProiectMDS\ProiectMDS\obj\Debug\netcoreapp2.1\Razor\Pages\_ViewImports.g.cshtml.cs
+C:\Users\User\source\repos\ProiectMDS\ProiectMDS\obj\Debug\netcoreapp2.1\Razor\Pages\_ViewStart.g.cshtml.cs
+C:\Users\User\source\repos\ProiectMDS\ProiectMDS\obj\Debug\netcoreapp2.1\ProiectMDS.RazorTargetAssemblyInfo.cache
+C:\Users\User\source\repos\ProiectMDS\ProiectMDS\obj\Debug\netcoreapp2.1\ProiectMDS.RazorTargetAssemblyInfo.cs
+C:\Users\Alexandru Adrian\Downloads\ProiectMDS\ProiectMDS\bin\Debug\netcoreapp2.1\ProiectMDS.deps.json
+C:\Users\Alexandru Adrian\Downloads\ProiectMDS\ProiectMDS\bin\Debug\netcoreapp2.1\ProiectMDS.runtimeconfig.json
+C:\Users\Alexandru Adrian\Downloads\ProiectMDS\ProiectMDS\bin\Debug\netcoreapp2.1\ProiectMDS.runtimeconfig.dev.json
+C:\Users\Alexandru Adrian\Downloads\ProiectMDS\ProiectMDS\bin\Debug\netcoreapp2.1\ProiectMDS.dll
+C:\Users\Alexandru Adrian\Downloads\ProiectMDS\ProiectMDS\bin\Debug\netcoreapp2.1\ProiectMDS.pdb
+C:\Users\Alexandru Adrian\Downloads\ProiectMDS\ProiectMDS\obj\Debug\netcoreapp2.1\ProiectMDS.csprojAssemblyReference.cache
+C:\Users\Alexandru Adrian\Downloads\ProiectMDS\ProiectMDS\obj\Debug\netcoreapp2.1\ProiectMDS.csproj.CoreCompileInputs.cache
+C:\Users\Alexandru Adrian\Downloads\ProiectMDS\ProiectMDS\obj\Debug\netcoreapp2.1\ProiectMDS.RazorAssemblyInfo.cache
+C:\Users\Alexandru Adrian\Downloads\ProiectMDS\ProiectMDS\obj\Debug\netcoreapp2.1\ProiectMDS.RazorAssemblyInfo.cs
+C:\Users\Alexandru Adrian\Downloads\ProiectMDS\ProiectMDS\obj\Debug\netcoreapp2.1\ProiectMDS.AssemblyInfoInputs.cache
+C:\Users\Alexandru Adrian\Downloads\ProiectMDS\ProiectMDS\obj\Debug\netcoreapp2.1\ProiectMDS.AssemblyInfo.cs
+C:\Users\Alexandru Adrian\Downloads\ProiectMDS\ProiectMDS\obj\Debug\netcoreapp2.1\ProiectMDS.RazorTargetAssemblyInfo.cache
+C:\Users\Alexandru Adrian\Downloads\ProiectMDS\ProiectMDS\obj\Debug\netcoreapp2.1\ProiectMDS.dll
+C:\Users\Alexandru Adrian\Downloads\ProiectMDS\ProiectMDS\obj\Debug\netcoreapp2.1\ProiectMDS.pdb
+D:\CRISTINA\Facultate\Anul3\Semestrul2\MDS\ProiectMDS\ProiectMDSAl\ProiectMDS\ProiectMDS\obj\Debug\netcoreapp2.1\ProiectMDS.csprojAssemblyReference.cache
+D:\CRISTINA\Facultate\Anul3\Semestrul2\MDS\ProiectMDS\ProiectMDSAl\ProiectMDS\ProiectMDS\obj\Debug\netcoreapp2.1\ProiectMDS.RazorAssemblyInfo.cache
+D:\CRISTINA\Facultate\Anul3\Semestrul2\MDS\ProiectMDS\ProiectMDSAl\ProiectMDS\ProiectMDS\obj\Debug\netcoreapp2.1\ProiectMDS.RazorAssemblyInfo.cs
+D:\CRISTINA\Facultate\Anul3\Semestrul2\MDS\ProiectMDS\ProiectMDSAl\ProiectMDS\ProiectMDS\obj\Debug\netcoreapp2.1\ProiectMDS.AssemblyInfoInputs.cache
+D:\CRISTINA\Facultate\Anul3\Semestrul2\MDS\ProiectMDS\ProiectMDSAl\ProiectMDS\ProiectMDS\obj\Debug\netcoreapp2.1\ProiectMDS.AssemblyInfo.cs
+D:\CRISTINA\Facultate\Anul3\Semestrul2\MDS\ProiectMDS\ProiectMDSAl\ProiectMDS\ProiectMDS\obj\Debug\netcoreapp2.1\ProiectMDS.dll
+D:\CRISTINA\Facultate\Anul3\Semestrul2\MDS\ProiectMDS\ProiectMDSAl\ProiectMDS\ProiectMDS\obj\Debug\netcoreapp2.1\ProiectMDS.pdb
+D:\CRISTINA\Facultate\Anul3\Semestrul2\MDS\ProiectMDS\ProiectMDSAl\ProiectMDS\ProiectMDS\bin\Debug\netcoreapp2.1\appsettings.Development.json
+D:\CRISTINA\Facultate\Anul3\Semestrul2\MDS\ProiectMDS\ProiectMDSAl\ProiectMDS\ProiectMDS\bin\Debug\netcoreapp2.1\appsettings.json
+D:\CRISTINA\Facultate\Anul3\Semestrul2\MDS\ProiectMDS\ProiectMDSAl\ProiectMDS\ProiectMDS\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+D:\CRISTINA\Facultate\Anul3\Semestrul2\MDS\ProiectMDS\ProiectMDSAl\ProiectMDS\ProiectMDS\bin\Debug\netcoreapp2.1\ProiectMDS.deps.json
+D:\CRISTINA\Facultate\Anul3\Semestrul2\MDS\ProiectMDS\ProiectMDSAl\ProiectMDS\ProiectMDS\bin\Debug\netcoreapp2.1\ProiectMDS.runtimeconfig.json
+D:\CRISTINA\Facultate\Anul3\Semestrul2\MDS\ProiectMDS\ProiectMDSAl\ProiectMDS\ProiectMDS\bin\Debug\netcoreapp2.1\ProiectMDS.runtimeconfig.dev.json
+D:\CRISTINA\Facultate\Anul3\Semestrul2\MDS\ProiectMDS\ProiectMDSAl\ProiectMDS\ProiectMDS\bin\Debug\netcoreapp2.1\ProiectMDS.dll
+D:\CRISTINA\Facultate\Anul3\Semestrul2\MDS\ProiectMDS\ProiectMDSAl\ProiectMDS\ProiectMDS\bin\Debug\netcoreapp2.1\ProiectMDS.pdb
+D:\CRISTINA\Facultate\Anul3\Semestrul2\MDS\ProiectMDS\ProiectMDSAl\ProiectMDS\ProiectMDS\obj\Debug\netcoreapp2.1\ProiectMDS.RazorTargetAssemblyInfo.cache
+E:\MDS\ProiectMDS\ProiectMDS\ProiectMDS\obj\Debug\netcoreapp2.1\ProiectMDS.csprojAssemblyReference.cache
+E:\MDS\ProiectMDS\ProiectMDS\ProiectMDS\obj\Debug\netcoreapp2.1\ProiectMDS.RazorAssemblyInfo.cache
+E:\MDS\ProiectMDS\ProiectMDS\ProiectMDS\obj\Debug\netcoreapp2.1\ProiectMDS.RazorAssemblyInfo.cs
+E:\MDS\ProiectMDS\ProiectMDS\ProiectMDS\obj\Debug\netcoreapp2.1\ProiectMDS.AssemblyInfoInputs.cache
+E:\MDS\ProiectMDS\ProiectMDS\ProiectMDS\obj\Debug\netcoreapp2.1\ProiectMDS.AssemblyInfo.cs
+E:\MDS\ProiectMDS\ProiectMDS\ProiectMDS\obj\Debug\netcoreapp2.1\ProiectMDS.dll
+E:\MDS\ProiectMDS\ProiectMDS\ProiectMDS\obj\Debug\netcoreapp2.1\ProiectMDS.pdb
+E:\MDS\ProiectMDS\ProiectMDS\ProiectMDS\bin\Debug\netcoreapp2.1\appsettings.Development.json
+E:\MDS\ProiectMDS\ProiectMDS\ProiectMDS\bin\Debug\netcoreapp2.1\appsettings.json
+E:\MDS\ProiectMDS\ProiectMDS\ProiectMDS\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+E:\MDS\ProiectMDS\ProiectMDS\ProiectMDS\bin\Debug\netcoreapp2.1\ProiectMDS.deps.json
+E:\MDS\ProiectMDS\ProiectMDS\ProiectMDS\bin\Debug\netcoreapp2.1\ProiectMDS.runtimeconfig.json
+E:\MDS\ProiectMDS\ProiectMDS\ProiectMDS\bin\Debug\netcoreapp2.1\ProiectMDS.runtimeconfig.dev.json
+E:\MDS\ProiectMDS\ProiectMDS\ProiectMDS\bin\Debug\netcoreapp2.1\ProiectMDS.dll
+E:\MDS\ProiectMDS\ProiectMDS\ProiectMDS\bin\Debug\netcoreapp2.1\ProiectMDS.pdb
+E:\MDS\ProiectMDS\ProiectMDS\ProiectMDS\obj\Debug\netcoreapp2.1\ProiectMDS.RazorTargetAssemblyInfo.cache
+E:\MDS\ProiectMDS - Copy\ProiectMDS\ProiectMDS\bin\Debug\netcoreapp2.1\appsettings.Development.json
+E:\MDS\ProiectMDS - Copy\ProiectMDS\ProiectMDS\bin\Debug\netcoreapp2.1\appsettings.json
+E:\MDS\ProiectMDS - Copy\ProiectMDS\ProiectMDS\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+E:\MDS\ProiectMDS - Copy\ProiectMDS\ProiectMDS\bin\Debug\netcoreapp2.1\ProiectMDS.deps.json
+E:\MDS\ProiectMDS - Copy\ProiectMDS\ProiectMDS\bin\Debug\netcoreapp2.1\ProiectMDS.runtimeconfig.json
+E:\MDS\ProiectMDS - Copy\ProiectMDS\ProiectMDS\bin\Debug\netcoreapp2.1\ProiectMDS.runtimeconfig.dev.json
+E:\MDS\ProiectMDS - Copy\ProiectMDS\ProiectMDS\bin\Debug\netcoreapp2.1\ProiectMDS.dll
+E:\MDS\ProiectMDS - Copy\ProiectMDS\ProiectMDS\bin\Debug\netcoreapp2.1\ProiectMDS.pdb
+E:\MDS\ProiectMDS - Copy\ProiectMDS\ProiectMDS\obj\Debug\netcoreapp2.1\ProiectMDS.csprojAssemblyReference.cache
+E:\MDS\ProiectMDS - Copy\ProiectMDS\ProiectMDS\obj\Debug\netcoreapp2.1\ProiectMDS.RazorAssemblyInfo.cache
+E:\MDS\ProiectMDS - Copy\ProiectMDS\ProiectMDS\obj\Debug\netcoreapp2.1\ProiectMDS.RazorAssemblyInfo.cs
+E:\MDS\ProiectMDS - Copy\ProiectMDS\ProiectMDS\obj\Debug\netcoreapp2.1\ProiectMDS.AssemblyInfoInputs.cache
+E:\MDS\ProiectMDS - Copy\ProiectMDS\ProiectMDS\obj\Debug\netcoreapp2.1\ProiectMDS.AssemblyInfo.cs
+E:\MDS\ProiectMDS - Copy\ProiectMDS\ProiectMDS\obj\Debug\netcoreapp2.1\ProiectMDS.RazorTargetAssemblyInfo.cache
+E:\MDS\ProiectMDS - Copy\ProiectMDS\ProiectMDS\obj\Debug\netcoreapp2.1\ProiectMDS.dll
+E:\MDS\ProiectMDS - Copy\ProiectMDS\ProiectMDS\obj\Debug\netcoreapp2.1\ProiectMDS.pdb
+E:\MDS\Git\HealthCard\HealthCard\bin\Debug\netcoreapp2.1\appsettings.Development.json
+E:\MDS\Git\HealthCard\HealthCard\bin\Debug\netcoreapp2.1\appsettings.json
+E:\MDS\Git\HealthCard\HealthCard\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+E:\MDS\Git\HealthCard\HealthCard\bin\Debug\netcoreapp2.1\ProiectMDS.deps.json
+E:\MDS\Git\HealthCard\HealthCard\bin\Debug\netcoreapp2.1\ProiectMDS.runtimeconfig.json
+E:\MDS\Git\HealthCard\HealthCard\bin\Debug\netcoreapp2.1\ProiectMDS.runtimeconfig.dev.json
+E:\MDS\Git\HealthCard\HealthCard\bin\Debug\netcoreapp2.1\ProiectMDS.dll
+E:\MDS\Git\HealthCard\HealthCard\bin\Debug\netcoreapp2.1\ProiectMDS.pdb
+E:\MDS\Git\HealthCard\HealthCard\obj\Debug\netcoreapp2.1\ProiectMDS.csprojAssemblyReference.cache
+E:\MDS\Git\HealthCard\HealthCard\obj\Debug\netcoreapp2.1\ProiectMDS.RazorAssemblyInfo.cache
+E:\MDS\Git\HealthCard\HealthCard\obj\Debug\netcoreapp2.1\ProiectMDS.RazorAssemblyInfo.cs
+E:\MDS\Git\HealthCard\HealthCard\obj\Debug\netcoreapp2.1\ProiectMDS.AssemblyInfoInputs.cache
+E:\MDS\Git\HealthCard\HealthCard\obj\Debug\netcoreapp2.1\ProiectMDS.AssemblyInfo.cs
+E:\MDS\Git\HealthCard\HealthCard\obj\Debug\netcoreapp2.1\ProiectMDS.RazorTargetAssemblyInfo.cache
+E:\MDS\Git\HealthCard\HealthCard\obj\Debug\netcoreapp2.1\ProiectMDS.dll
+E:\MDS\Git\HealthCard\HealthCard\obj\Debug\netcoreapp2.1\ProiectMDS.pdb
+E:\MDS\Git\merge\Backend\HealthCard\bin\Debug\netcoreapp2.1\appsettings.Development.json
+E:\MDS\Git\merge\Backend\HealthCard\bin\Debug\netcoreapp2.1\appsettings.json
+E:\MDS\Git\merge\Backend\HealthCard\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+E:\MDS\Git\merge\Backend\HealthCard\bin\Debug\netcoreapp2.1\ProiectMDS.deps.json
+E:\MDS\Git\merge\Backend\HealthCard\bin\Debug\netcoreapp2.1\ProiectMDS.runtimeconfig.json
+E:\MDS\Git\merge\Backend\HealthCard\bin\Debug\netcoreapp2.1\ProiectMDS.runtimeconfig.dev.json
+E:\MDS\Git\merge\Backend\HealthCard\bin\Debug\netcoreapp2.1\ProiectMDS.dll
+E:\MDS\Git\merge\Backend\HealthCard\bin\Debug\netcoreapp2.1\ProiectMDS.pdb
+E:\MDS\Git\merge\Backend\HealthCard\obj\Debug\netcoreapp2.1\ProiectMDS.csprojAssemblyReference.cache
+E:\MDS\Git\merge\Backend\HealthCard\obj\Debug\netcoreapp2.1\ProiectMDS.RazorAssemblyInfo.cache
+E:\MDS\Git\merge\Backend\HealthCard\obj\Debug\netcoreapp2.1\ProiectMDS.RazorAssemblyInfo.cs
+E:\MDS\Git\merge\Backend\HealthCard\obj\Debug\netcoreapp2.1\ProiectMDS.AssemblyInfoInputs.cache
+E:\MDS\Git\merge\Backend\HealthCard\obj\Debug\netcoreapp2.1\ProiectMDS.AssemblyInfo.cs
+E:\MDS\Git\merge\Backend\HealthCard\obj\Debug\netcoreapp2.1\ProiectMDS.RazorTargetAssemblyInfo.cache
+E:\MDS\Git\merge\Backend\HealthCard\obj\Debug\netcoreapp2.1\ProiectMDS.dll
+E:\MDS\Git\merge\Backend\HealthCard\obj\Debug\netcoreapp2.1\ProiectMDS.pdb
