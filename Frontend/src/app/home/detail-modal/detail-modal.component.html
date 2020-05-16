@@ -12,12 +12,13 @@
         <div class="row">
           <div class="details">
           <p *ngFor = "let pacient of pacient.pacientNume" > {{pacient}} </p>
-          <p> - {{pacient.pacientNume}}</p>
-          <!-- <p id="studio">{{studio}}</p> -->
-
-          <ol>
-            <!-- <li *ngFor = "let song of album.songName"> {{song}}</li> -->
-          </ol>
+          <p> Pacient - {{pacient.pacientNume}} {{pacient.pacientPrenume}}</p>
+            
+          <ul>
+            <li *ngFor="let diagnostic of diagnostice">
+              {{diagnostic.doctor.doctorNume}} {{diagnostic.doctor.doctorPrenume}}
+            </li>
+          </ul>
 
         </div>
         </div>

@@ -10,48 +10,52 @@
 
 <div class="form-container border ">
 
-  <form class="text-center " [formGroup]="addSongForm"  *ngIf="selectedOption === 'Song'">
+  <form class="text-center " [formGroup]="addDiagnosticForm"  *ngIf="selectedOption === 'Diagnostic'">
 
-    <input type="text"  class="form-control mb-4" placeholder="Name" formControlName="name"
+    <input type="number"  class="form-control mb-4" placeholder="Pacient id" formControlName="pacientId"
        autocomplete="off"   >
 
-    <input type="text"  class="form-control mb-4" placeholder="Style" formControlName="style"
+    <input type="number"  class="form-control mb-4" placeholder="Doctor id" formControlName="doctorId"
          autocomplete="off"  >
   </form>
 
 
 
-  <form class="text-center  " [formGroup]="addArtistForm" *ngIf="selectedOption === 'Artist'">
+  <form class="text-center  " [formGroup]="addPacientForm" *ngIf="selectedOption === 'Pacient'">
 
-    <input type="text"  class="form-control mb-4" placeholder="Name" formControlName="name"
+    <input type="text"  class="form-control mb-4" placeholder="Nume" formControlName="pacientNume"
          autocomplete="off" >
+         
+    <input type="text"  class="form-control mb-4" placeholder="Prenume" formControlName="pacientPrenume"
+    autocomplete="off" >
 
-    <input type="text"  class="form-control mb-4" placeholder="Nationality" formControlName="nationality"
-          autocomplete="off" >
+    <input type="number"  class="form-control mb-4" placeholder="Varsta" formControlName="varsta"
+         autocomplete="off"  >
+
+      <input type="text"  class="form-control mb-4" placeholder="CNP" formControlName="cnp" size="10"
+      autocomplete="off" >
+
   </form>
 
 
   
 
-  <form class="text-center  " [formGroup]="addAlbumForm"  *ngIf="selectedOption === 'Album'">
+  <form class="text-center  " [formGroup]="addTratamentForm"  *ngIf="selectedOption === 'Tratament'">
+      <input type="number"  class="form-control mb-4" placeholder="Diagnostic id" formControlName="diagnosticId"
+      autocomplete="off"  >
 
-    <input type="text"  class="form-control mb-4" placeholder="Name" formControlName="name"
-         autocomplete="off" >
+      <input type="number"  class="form-control mb-4" placeholder="Medicament id" formControlName="medicamentId"
+      autocomplete="off"  >
 
-    <input type="number"  class="form-control mb-4" placeholder="ReleaseYear" formControlName="releaseYear"
-          autocomplete="off" >
+      <input type="number"  class="form-control mb-4" placeholder="Dozaj" formControlName="dozaj"
+      autocomplete="off"  >
 
+      <input type="text"  class="form-control mb-4" placeholder="Data Administrare" formControlName="dataAdministrare"
+      autocomplete="off" >
 
-    <input type="number"  class="form-control mb-4" placeholder="studioID" formControlName="studioId"
-          autocomplete="off" >
+      <input type="text"  class="form-control mb-4" placeholder="Data Terminare" formControlName="dataTerminare"
+      autocomplete="off" >
 
-    <input type="text"  class="form-control mb-4" placeholder="ArtistId1, ArtistId2" formControlName="artistId"
-          autocomplete="off" >
-
-    <input type="text"  class="form-control mb-4" placeholder="SongId1, SongId2" formControlName="songId"
-          autocomplete="off" >
-    <input type="text"  class="form-control novalidate mb-4" placeholder="Img URL" formControlName="img"
-           autocomplete="off">
   </form>
   <button mdbBtn color="danger" block="true"  type="submit" (click)="add()" [disabled]="currentFormRef.invalid" >Add</button>
     <p *ngIf="success" style="color: green; font-size: 22px;">{{selectedOption.toUpperCase()}} added successfully</p>

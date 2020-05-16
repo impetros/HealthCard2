@@ -28,6 +28,7 @@ namespace ProiectMDS.Repositories.DiagnosticRepository
                 .Include("Doctor")
                 .SingleOrDefault(x => x.DiagnosticId == Id);
         }
+
         public List<Diagnostic> GetAll()
         {
             return _context.Diagnostice
@@ -35,6 +36,15 @@ namespace ProiectMDS.Repositories.DiagnosticRepository
                 .Include("Doctor")
                 .ToList();
         }
+        public List<Diagnostic> GetDiagnosticePacient(int id)
+        {
+            return _context.Diagnostice
+                .Where(p => p.PacientId == id)
+                .Include("Pacient")
+                .Include("Doctor")
+                .ToList();
+        }
+
         public Diagnostic Update(Diagnostic Diagnostic)
         {
             _context.Entry(Diagnostic).State = Microsoft.EntityFrameworkCore.EntityState.Modified;

@@ -14,12 +14,9 @@ import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './header/header.component';
 import { DetailModalComponent } from './home/detail-modal/detail-modal.component';
 import { SearchPipe } from './shared/search.pipe';
-// import { AddComponent } from './add/add.component';
-// import { CartModalComponent } from './header/cart-modal/cart-modal.component';
-// import { EditComponent } from './edit/edit.component';
-// import { EditAlbumModalComponent } from './edit/edit-album-modal/edit-album-modal.component';
-// import { EditSongModalComponent } from './edit/edit-song-modal/edit-song-modal.component';
-// import { EditArtistModalComponent } from './edit/edit-artist-modal/edit-artist-modal.component';
+import { AddComponent } from './add/add.component';
+import { EditComponent } from './edit/edit.component';
+import { EditTratamentModalComponent } from './edit/edit-tratament-modal/edit-tratament-modal.component';
 
 
 
@@ -32,9 +29,9 @@ import { SearchPipe } from './shared/search.pipe';
     SearchPipe,
     DetailModalComponent,
     // CartModalComponent,
-    // AddComponent,
-    // EditComponent,
-    // EditAlbumModalComponent,
+    AddComponent,
+    EditComponent,
+    EditTratamentModalComponent,
     // EditSongModalComponent,
     // EditArtistModalComponent,  
 

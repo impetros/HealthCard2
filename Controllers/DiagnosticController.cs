@@ -10,6 +10,7 @@ using ProiectMDS.Repositories.PacientRepository;
 namespace ProiectMDS.Controllers
 {
     [Route("api/[controller]")]
+    [ApiController]
     public class DiagnosticController : ControllerBase
     {
         public IDiagnosticRepository IDiagnosticRepository { get; set; }
@@ -35,6 +36,12 @@ namespace ProiectMDS.Controllers
         public ActionResult<Diagnostic> Get(int id)
         {
             return IDiagnosticRepository.Get(id);
+        }
+
+        [HttpGet("Pacient/{id}")]
+        public ActionResult<IEnumerable<Diagnostic>> GetDiagnosticePacient(int id)
+        {
+            return IDiagnosticRepository.GetDiagnosticePacient(id);
         }
 
         // POST: api/Diagnostic

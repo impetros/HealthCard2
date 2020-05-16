@@ -63,6 +63,10 @@ export class ApiService {
     return this.http.get(this.baseUrl + '/diagnostic', { headers: this.header });
   }
 
+  getDiagnosticePacient(id: number) {
+    return this.http.get(this.baseUrl + '/diagnostic/pacient/' + id.toString(), { headers: this.header });
+  }
+
 
   //post methods  
 
@@ -101,7 +105,7 @@ export class ApiService {
   }
 
   editTratament(tratament: Tratament) {
-    return this.http.put(this.baseUrl + '/tratament/' + tratament.TratamentId.toString(), tratament, { headers: this.header });
+    return this.http.put(this.baseUrl + '/tratament/' + tratament.tratamentId.toString(), tratament, { headers: this.header });
   }
 
   editDiagnostic(diagnostic: Diagnostic) {

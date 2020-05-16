@@ -10,7 +10,6 @@ import { Component, OnInit, ViewChild } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-  // @ViewChild('cartModal') detailModal: CartModalComponent;
 
   constructor() { }
 

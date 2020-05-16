@@ -14,5 +14,7 @@ namespace ProiectMDS.Repositories.DiagnosticRepository
         Diagnostic Update(Diagnostic Diagnostic);
         Diagnostic Delete(Diagnostic Diagnostic);
 
+        List<Diagnostic> GetDiagnosticePacient(int id);
+
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\MDS\\Git\\merge\\HealthCard.csproj": {}
+    "E:\\MDS\\Git\\HealthCard\\HealthCard.csproj": {}
   },
   "projects": {
-    "E:\\MDS\\Git\\merge\\HealthCard.csproj": {
+    "E:\\MDS\\Git\\HealthCard\\HealthCard.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\MDS\\Git\\merge\\HealthCard.csproj",
+        "projectUniqueName": "E:\\MDS\\Git\\HealthCard\\HealthCard.csproj",
         "projectName": "HealthCard",
-        "projectPath": "E:\\MDS\\Git\\merge\\HealthCard.csproj",
+        "projectPath": "E:\\MDS\\Git\\HealthCard\\HealthCard.csproj",
         "packagesPath": "C:\\Users\\sargs\\.nuget\\packages\\",
-        "outputPath": "E:\\MDS\\Git\\merge\\obj\\",
+        "outputPath": "E:\\MDS\\Git\\HealthCard\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

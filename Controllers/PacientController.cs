@@ -7,6 +7,7 @@ using ProiectMDS.Controllers;
 using ProiectMDS.Models;
 using ProiectMDS.Contexts;
 using ProiectMDS.Repositories.PacientRepository;
+using ProiectMDS.Repositories.DiagnosticRepository;
 
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -18,6 +19,7 @@ namespace ProiectMDS.Controllers
     public class PacientController : ControllerBase
     {
         public IPacientRepository IPacientRepository { get; set; }
+        public IDiagnosticRepository IDiagnosticRepository { get; set; }
 
         public PacientController(IPacientRepository repository)
         {
@@ -37,6 +39,8 @@ namespace ProiectMDS.Controllers
         {
             return IPacientRepository.Get(id);
         }
+
+
 
         // POST: api/Pacient
         [HttpPost]
