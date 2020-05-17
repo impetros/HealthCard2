@@ -28,7 +28,6 @@ import { EditTratamentModalComponent } from './edit/edit-tratament-modal/edit-tr
     HeaderComponent,
     SearchPipe,
     DetailModalComponent,
-    // CartModalComponent,
     AddComponent,
     EditComponent,
     EditTratamentModalComponent,

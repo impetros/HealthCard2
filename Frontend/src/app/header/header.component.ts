@@ -1,8 +1,4 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
-// import { CartModalComponent } from './cart-modal/cart-modal.component';
-
-
-
 
 @Component({
   selector: 'app-header',

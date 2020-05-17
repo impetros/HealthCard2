@@ -1,35 +1,34 @@
-<!-- <h1>Edit page</h1>
+<h1>Edit page</h1>
 <div class="container">
-  <div class="albums">
-  <p>Albums</p>
+  <div class="tratamente">
+  <p>Tratamente</p>
   <table class="table table-striped ">
     <thead>
     <tr>
-      <th scope="col" style="width:10%">ID</th>
-      <th scope="col" style="width:20%">Name</th>
-      <th scope="col" style="width:10%">Release year</th>
-      <th scope="col" style="width:10%">StudioId</th>
-      <th scope="col" style="width:20%">ArtistName</th>
-      <th scope="col" style="width:20%">SongName</th>
+      <th scope="col" style="width:10%">Tratament Id</th>
+      <th scope="col" style="width:20%">Diagnostic Id</th>
+      <th scope="col" style="width:10%">Medicament Id</th>
+      <th scope="col" style="width:10%">Dozaj</th>
+      <th scope="col" style="width:20%">Data administarre</th>
+      <th scope="col" style="width:20%">Data terminare</th>
       <th scope="col" style="width:10%">Actions</th>
-
     </tr>
     </thead>
     <tbody>
-    <tr *ngFor="let album of albums;let i=index">
-      <th scope="row">{{album.id}}</th>
-      <td>{{album.name}}</td>
-      <td>{{album.releaseYear}}</td>
-      <td>{{album.studioId}}</td>
-      <td>{{album.artistName}}</td>
-      <td>{{album.songName}}</td>
+    <tr *ngFor="let tratament of tratamente;let i=index">
+      <th scope="row">{{tratament.tratamentId}}</th>
+      <td>{{tratament.diagnosticId}}</td>
+      <td>{{tratament.medicamentId}}</td>
+      <td>{{tratament.dozaj}}</td>
+      <td>{{tratament.dataAdministrare}}</td>
+      <td>{{tratament.dataTerminare}}</td>
       <td><a class=" dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
              aria-haspopup="true" aria-expanded="false"></a>
 
         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" (click)="showM1(album.id)"><i class="fas fa-pen"></i> Edit</a>
+          <a class="dropdown-item" (click)="showM1(tratament.tratamentId)"><i class="fas fa-pen"></i> Edit</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" (click)="deleteAlbum(album.id)"><i class="fas fa-eraser"></i> Delete</a>
+          <a class="dropdown-item" (click)="deleteTratament(tratament.tratamentId)"><i class="fas fa-eraser"></i> Delete</a>
         </div>
       </td>
 
@@ -43,7 +42,7 @@
   </div>
 
 
-
+<!-- 
   <div class="artist">
     <p>Artists</p>
     <table class="table table-striped ">
@@ -118,10 +117,10 @@
       </tbody>
     </table>
 
-  </div>
+  </div> -->
 
 
 </div>
-<app-edit-tratament-modal #edittratamentModal (change)="onEditFinished($event)" ></app-edit-album-modal> -->
+<app-edit-tratament-modal #editTratamentModal (change)="onEditFinished($event)" ></app-edit-tratament-modal>
 <!-- <app-edit-song-modal #editSongModal (change)="onEditFinished($event)" ></app-edit-song-modal>
 <app-edit-artist-modal #editArtistModal (change)="onEditFinished($event)" ></app-edit-artist-modal> -->

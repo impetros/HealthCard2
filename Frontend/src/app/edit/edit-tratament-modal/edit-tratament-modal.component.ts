@@ -24,7 +24,7 @@ export class EditTratamentModalComponent {
     this.api.getTratament(id)
       .subscribe((data: Tratament) => {
         this.currentTratament = data;
-        // this.initializeFrom(this.currentTratament);
+        this.initializeFrom(this.currentTratament);
       },
         (error: Error) => {
           console.log('err', error);
@@ -32,39 +32,34 @@ export class EditTratamentModalComponent {
         });
   }
 
-//   initializeFrom(currentTratament: Tratament) {
-//     this.editTratamentForm = this.fb.group({
-//       diagnosticId: [currentTratament.diagnosticId, Validators.required],
-//       medicamentId: [currentTratament.medicamentId, Validators.required],
-//       dozaj: [currentTratament.dozaj, Validators.required],
-//       artistId: ['', Validators.required],
-//       songId: ['', Validators.required]
-//     });
-//   }
+  initializeFrom(currentTratament: Tratament) {
+    this.editTratamentForm = this.fb.group({
+      diagnosticId: [currentTratament.diagnosticId, Validators.required],
+      medicamentId: [currentTratament.medicamentId, Validators.required],
+      dozaj: [currentTratament.dozaj, Validators.required],
+      dataAdministrare: [currentTratament.dataAdministrare, Validators.required],
+      dataTerminare: [currentTratament.dataTerminare, Validators.required]
+    });
+  }
 
-//   editTratament() {
-//     const editedAlbum = new Tratament{
-//       tratamentid: this.currentTratament.tratamentId, 
-//       name: this.editTratamentForm. ,
-//       releaseYear: this.editTratamentForm.value.releaseYear,
-//       studioId: this.editTratamentForm.value.studioId,
-//       songId: this.transformInNumberArray(this.editTratamentForm.value.songId),
-//       artistId: this.transformInNumberArray(this.editTratamentForm.value.artistId),
-//       img: this.editTratamentForm.value.img
-//     });
+  editTratament() {
+    const editedTratament = new Tratament({
+        tratamentId: this.currentTratament.tratamentId, 
+        diagnosticId: this.editTratamentForm.value.diagnosticId ,
+        medicamentId: this.editTratamentForm.value.medicamentId,
+        dozaj: this.editTratamentForm.value.dozaj,
+        dataAdministrare: this.editTratamentForm.value.dataAdministrare,
+        dataTerminare: this.editTratamentForm.value.dataTerminare
+    });
 
-//     this.api.editAlbum(editedAlbum)
-//       .subscribe(() => {
-//         this.change.emit('album');
-//         this.modal.hide();
-//       },
-//         (error: Error) => {
-//           console.log('err', error);
-//         });
-//   }
-
-//   transformInNumberArray(string: string) {
-//     return JSON.parse('[' + string + ']');
-//   }
+    this.api.editTratament(editedTratament)
+      .subscribe(() => {
+        this.change.emit('tratament');
+        this.modal.hide();
+      },
+        (error: Error) => {
+          console.log('err', error);
+        });
+  }
 
 }

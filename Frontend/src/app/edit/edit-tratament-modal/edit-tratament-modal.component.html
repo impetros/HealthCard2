@@ -1,4 +1,4 @@
-<!-- <div bsModal class=" row modal fade" #editTratamentModal="bs-modal" tabindex="-1" role="dialog" aria-labelledby="editTratamentModal"
+<div bsModal class=" row modal fade" #editTratamentModal="bs-modal" tabindex="-1" role="dialog" aria-labelledby="editTratamentModal"
      aria-hidden="true" (onHide)=" this.editTratamentForm.reset();">
   <div class="col-md-6 col-sm-6 col-lg-4 mx-auto my-4" *ngIf="editTratamentForm">
 
@@ -7,27 +7,22 @@
 
       <p class="h4 mb-4">Edit Tratament</p>
 
-      <label for="name">Name</label>
-      <input type="text"  id="name" class="form-control mb-4"   formControlName="name" autocomplete="off" >
+      <label for="diagnosticId">Diagnostic id</label>
+      <input type="number"  id="diagnosticId" class="form-control mb-4"   formControlName="diagnosticId" autocomplete="off" >
 
-      <label for="releaseYear" >ReleaseYear</label>
-      <input type="text" id="releaseYear" class="form-control mb-4" formControlName="releaseYear" autocomplete="off" >
+      <label for="medicamentId" >Medicament id</label>
+      <input type="number" id="medicamentId" class="form-control mb-4" formControlName="medicamentId" autocomplete="off" >
 
-      <label for="studioId">StudioId</label>
-      <input type="number" id="studioId"  class="form-control mb-4" formControlName="studioId" autocomplete="off" >
+      <label for="dozaj">Dozaj</label>
+      <input type="number" id="dozaj"  class="form-control mb-4" formControlName="dozaj" autocomplete="off" >
 
-      <label for="art">Add artist id's *</label>
-      <input type="text" id="art" class="form-control mb-4" placeholder='ArtistId1, ArtistId2' formControlName="artistId" autocomplete="off" >
+      <label for="dataAdministrare">Data administrare</label>
+      <input type="text" id="dataAdministrare" class="form-control mb-4" placeholder='Data administrare' formControlName="dataAdministrare" autocomplete="off" >
 
-      <label for="song">Add songs id's *</label>
-      <input type="text" id="song" class="form-control mb-4" placeholder='SongId1, SongId2' formControlName="songId" autocomplete="off" >
+      <label for="dataTerminare">Data terminare</label>
+      <input type="text" id="dataTerminare" class="form-control mb-4" placeholder='Data terminare' formControlName="dataTerminare" autocomplete="off" >
 
-      <label for="song">Img URL</label>
-      <input type="text" id="song" class="form-control novalidate mb-4"  formControlName="img" autocomplete="off" >
-
-
-
-      <button mdbBtn color="danger" block="true" class="my-4"  [disabled]="!this.editTratamentForm.valid || this.editTratamentForm.pristine" (click)='editAlbum()'>Edit</button>
+      <button mdbBtn color="danger" block="true" class="my-4"  [disabled]="!this.editTratamentForm.valid || this.editTratamentForm.pristine" (click)='editTratament()()'>Edit</button>
 
 
 
@@ -40,4 +35,4 @@
   </div>
 </div>
 
- -->
+

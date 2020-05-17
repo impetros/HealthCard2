@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { Component, OnInit, ViewChild, ViewChildren } from '@angular/core';
 import { ApiService } from '../shared/api.service';
 import { EditTratamentModalComponent } from './edit-tratament-modal/edit-tratament-modal.component';
 import { Tratament } from '../shared/tratament.model';
@@ -75,7 +75,7 @@ export class EditComponent implements OnInit {
   //       });
   // }
 
-  deleteAlbum(id: number) {
+  deleteTratament(id: number) {
     this.api.deleteTratament(id)
       .subscribe(() => {
         this.getTratamente();
