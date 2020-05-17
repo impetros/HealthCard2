@@ -1,14 +1,16 @@
-<div bsModal class=" row modal fade" #editSongModal="bs-modal" tabindex="-1" role="dialog" aria-labelledby="editSongModal"
-     aria-hidden="true" (onHide)=" this.editSongForm.reset();">
-  <div class="col-md-6 col-sm-6 col-lg-4 mx-auto my-4" *ngIf="editSongForm">
+<div bsModal class=" row modal fade" #editPacientModal="bs-modal" tabindex="-1" role="dialog" aria-labelledby="editPacientModal"
+     aria-hidden="true" (onHide)=" this.editPacientForm.reset();">
+  <div class="col-md-6 col-sm-6 col-lg-4 mx-auto my-4" *ngIf="editPacientForm">
 
 
-    <form class="text-center border border-light p-5" [formGroup]="editSongForm"  >
+    <form class="text-center border border-light p-5" [formGroup]="editPacientForm"  >
 
-      <p class="h4 mb-4">Edit Song</p>
-      <input type="text"  class="form-control mb-4"   formControlName="name" placeholder="Enter name" autocomplete="off">
-      <input type="text"  class="form-control mb-4"   formControlName="style" placeholder="Enter style" autocomplete="off">
-      <button mdbBtn color="danger" block="true" class="my-4"  [disabled]="editSongForm.invalid || editSongForm.pristine" (click)="editSong()">Edit</button>
+      <p class="h4 mb-4">Edit Pacient</p>
+      <input type="text"  class="form-control mb-4"   formControlName="pacientNume" placeholder="Nume" autocomplete="off">
+      <input type="text"  class="form-control mb-4"   formControlName="pacientPrenume" placeholder="Prenume" autocomplete="off">
+      <input type="number"  class="form-control mb-4"   formControlName="varsta" placeholder="Varsta" autocomplete="off">
+      <input type="text"  class="form-control mb-4"   formControlName="cnp" placeholder="CNP" autocomplete="off">
+      <button mdbBtn color="danger" block="true" class="my-4"  [disabled]="editPacientForm.invalid || editPacientForm.pristine" (click)="editPacient()">Edit</button>
 
     </form>
 

@@ -1,60 +1,65 @@
-// import { Component, EventEmitter, OnInit, Output, ViewChild } from '@angular/core';
-// import { ModalDirective } from 'ngx-bootstrap/modal';
-// import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-// import { ApiService } from '../../shared/api.service';
+import { Component, EventEmitter, OnInit, Output, ViewChild } from '@angular/core';
+import { ModalDirective } from 'ngx-bootstrap/modal';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { ApiService } from '../../shared/api.service';
+import { Doctor } from 'src/app/shared/doctor.model';
 
 
-// @Component({
-//   selector: 'app-edit-artist-modal',
-//   templateUrl: './edit-artist-modal.component.html',
-//   styleUrls: ['./edit-artist-modal.component.css']
-// })
-// export class EditArtistModalComponent {
-//   @ViewChild('editArtistModal') modal: ModalDirective;
-//   @Output() change: EventEmitter<string> = new EventEmitter<string>();
-//   editArtistForm: FormGroup;
-//   currentArtist = new Artist();
+@Component({
+  selector: 'app-edit-doctor-modal',
+  templateUrl: './edit-doctor-modal.component.html',
+  styleUrls: ['./edit-doctor-modal.component.css']
+})
+export class EditDoctorModalComponent {
+  @ViewChild('editDoctorModal') modal: ModalDirective;
+  @Output() change: EventEmitter<string> = new EventEmitter<string>();
+  editDoctorForm: FormGroup;
+  currentDoctor = new Doctor();
 
-//   constructor(public fb: FormBuilder, private api: ApiService) { }
+  constructor(public fb: FormBuilder, private api: ApiService) { }
 
-//   initialize(id: number): void {
-//     this.modal.show();
-//     this.api.getArtist(id)
-//       .subscribe((data: Artist) => {
-//         this.currentArtist = data;
-//         this.initializeFrom(this.currentArtist);
-//       },
-//         (error: Error) => {
-//           console.log('err', error);
+  initialize(id: number): void {
+    this.modal.show();
+    this.api.getDoctor(id)
+      .subscribe((data: Doctor) => {
+        this.currentDoctor = data;
+        this.initializeFrom(this.currentDoctor);
+      },
+        (error: Error) => {
+          console.log('err', error);
 
-//         });
-//   }
+        });
+  }
 
-//   initializeFrom(currentArtist: Artist) {
-//     this.editArtistForm = this.fb.group({
-//       name: [currentArtist.name, Validators.required],
-//       nationality: [currentArtist.nationality, Validators.required],
-//     });
-//   }
+  initializeFrom(currentDoctor: Doctor) {
+    this.editDoctorForm = this.fb.group({
+        doctorNume: [currentDoctor.doctorNume, Validators.required],
+        doctorPrenume: [currentDoctor.doctorPrenume, Validators.required],
+        varsta: [currentDoctor.varsta, Validators.required],
+        specialitate: [currentDoctor.specialitate, Validators.required],
+    });
+  }
 
-//   editArtist() {
-//     const editedArtist = new Artist({
-//       id: this.currentArtist.id,
-//       name: this.editArtistForm.value.name,
-//       nationality: this.editArtistForm.value.nationality,
-//     });
+  editDoctor() {
+    const editedDoctor = new Doctor({
+        doctorId: this.currentDoctor.doctorId,
+        doctorNume: this.editDoctorForm.value.doctorNume,
+        doctorPrenume: this.editDoctorForm.value.doctorPrenume,
+        varsta: this.editDoctorForm.value.varsta,
+        specialitate: this.editDoctorForm.value.specialitate,
+    });
 
-//     this.api.editArtist(editedArtist)
-//       .subscribe(() => {
-//         this.change.emit('artist');
-//         this.modal.hide();
-//       },
-//         (error: Error) => {
-//           console.log('err', error);
-//         });
-//   }
+    this.api.editDoctor(editedDoctor)
+      .subscribe(() => {
+        this.change.emit('doctor');
+        this.modal.hide();
+      },
+        (error: Error) => {
+          console.log('err', error);
+        });
+  }
 
-// }
+}
 
 
 

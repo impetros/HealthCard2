@@ -17,6 +17,9 @@ import { SearchPipe } from './shared/search.pipe';
 import { AddComponent } from './add/add.component';
 import { EditComponent } from './edit/edit.component';
 import { EditTratamentModalComponent } from './edit/edit-tratament-modal/edit-tratament-modal.component';
+import { EditPacientModalComponent } from './edit/edit-pacient-modal/edit-pacient-modal.component';
+import { EditDoctorModalComponent } from './edit/edit-doctor-modal/edit-doctor-modal.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 
@@ -31,10 +34,9 @@ import { EditTratamentModalComponent } from './edit/edit-tratament-modal/edit-tr
     AddComponent,
     EditComponent,
     EditTratamentModalComponent,
-    // EditSongModalComponent,
-    // EditArtistModalComponent,  
-
-
+    EditPacientModalComponent,
+    EditDoctorModalComponent,
+    ContactComponent
   ],
   imports: [
     CommonModule,

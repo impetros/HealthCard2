@@ -1,14 +1,16 @@
-<div bsModal class=" row modal fade" #editArtistModal="bs-modal" tabindex="-1" role="dialog" aria-labelledby="editArtistModal"
-     aria-hidden="true" (onHide)=" this.editArtistForm.reset();">
-  <div class="col-md-6 col-sm-6 col-lg-4 mx-auto my-4" *ngIf="editArtistForm">
+<div bsModal class=" row modal fade" #editDoctorModal="bs-modal" tabindex="-1" role="dialog" aria-labelledby="editDoctorModal"
+     aria-hidden="true" (onHide)=" this.editDoctorModal.reset();">
+  <div class="col-md-6 col-sm-6 col-lg-4 mx-auto my-4" *ngIf="editDoctorForm">
 
     <form class="text-center border border-light p-5 " 
-    [formGroup]="editArtistForm"  >
+    [formGroup]="editDoctorForm"  >
 
-      <p class="h4 mb-4">Edit Artist</p>
-      <input type="text"  class="form-control mb-4"  formControlName="name" placeholder="Enter name" autocomplete="off">
-      <input type="text"  class="form-control mb-4"  formControlName="nationality" placeholder="Enter nationality" autocomplete="off">      
-      <button mdbBtn color="danger" block="true" class="my-4"  [disabled]="editArtistForm.invalid || editArtistForm.pristine" (click)="editArtist()">Edit</button>
+      <p class="h4 mb-4">Edit Doctor</p>
+      <input type="text"  class="form-control mb-4"  formControlName="doctorNume" placeholder="Nume" autocomplete="off">
+      <input type="text"  class="form-control mb-4"  formControlName="doctorPrenume" placeholder="Prenume" autocomplete="off">      
+      <input type="number"  class="form-control mb-4"  formControlName="varsta" placeholder="Varsta" autocomplete="off">
+      <input type="text"  class="form-control mb-4"  formControlName="specialitate" placeholder="Specialitate" autocomplete="off">      
+      <button mdbBtn color="danger" block="true" class="my-4"  [disabled]="editDoctorForm.invalid || editDoctorForm.pristine" (click)="editDoctor()">Edit</button>
 
     </form>
 

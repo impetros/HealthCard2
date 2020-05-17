@@ -1,9 +1,11 @@
 import { Component, OnInit, ViewChild, ViewChildren } from '@angular/core';
 import { ApiService } from '../shared/api.service';
-import { EditTratamentModalComponent } from './edit-tratament-modal/edit-tratament-modal.component';
 import { Tratament } from '../shared/tratament.model';
 import { Pacient } from '../shared/pacient.model';
 import { Doctor } from '../shared/doctor.model';
+import { EditPacientModalComponent } from './edit-pacient-modal/edit-pacient-modal.component';
+import { EditDoctorModalComponent } from './edit-doctor-modal/edit-doctor-modal.component';
+import { EditTratamentModalComponent } from './edit-tratament-modal/edit-tratament-modal.component';
 
 @Component({
   selector: 'app-edit',
@@ -19,16 +21,16 @@ export class EditComponent implements OnInit {
 
 
   @ViewChild('editTratamentModal') editTratamentModal: EditTratamentModalComponent;
-  // @ViewChild('editArtistModal') editArtistModal: EditArtistModalComponent;
-  // @ViewChild('editSongModal') editSongModal: EditSongModalComponent;
+  @ViewChild('editPacientModal') editPacientModal: EditPacientModalComponent;
+  @ViewChild('editDoctorModal') editDoctorModal: EditDoctorModalComponent;
 
 
   constructor(private api: ApiService) { }
 
   ngOnInit() {
     this.getTratamente();
-    // this.getArtists();
-    // this.getSongs();
+    this.getPacienti();
+    this.getDoctori();
   }
 
   getTratamente() {
@@ -53,27 +55,27 @@ export class EditComponent implements OnInit {
         });
   }
 
-  // getArtists() {
+  getPacienti() {
 
-  //   this.api.getArtists()
-  //     .subscribe((data: Artist[]) => {
-  //       this.artists = data;
-  //     },
-  //       (error: Error) => {
-  //         console.log('err', error);
-  //       });
-  // }
+    this.api.getPacienti()
+      .subscribe((data: Pacient[]) => {
+        this.pacienti = data;
+      },
+        (error: Error) => {
+          console.log('err', error);
+        });
+  }
 
-  // getSongs() {
-  //   this.api.getSongs()
-  //     .subscribe((data: Song[]) => {
-  //       this.songs = data;
-  //     },
-  //       (error: Error) => {
-  //         console.log('err', error);
+  getDoctori() {
+    this.api.getDoctori()
+      .subscribe((data: Doctor[]) => {
+        this.doctori = data;
+      },
+        (error: Error) => {
+          console.log('err', error);
 
-  //       });
-  // }
+        });
+  }
 
   deleteTratament(id: number) {
     this.api.deleteTratament(id)
@@ -85,51 +87,48 @@ export class EditComponent implements OnInit {
         });
   }
 
-  // deleteArtist(id: number) {
-  //   this.api.deleteArtist(id)
-  //     .subscribe(() => {
-  //       this.getArtists();
-  //     },
-  //       (error: Error) => {
-  //         console.log(error);
-  //       });
-  // }
+  deletePacient(id: number) {
+    this.api.deletePacient(id)
+      .subscribe(() => {
+        this.getPacienti();
+      },
+        (error: Error) => {
+          console.log(error);
+        });
+  }
 
-  // deleteSong(id: number) {
-  //   this.api.deleteSong(id)
-  //     .subscribe(() => {
-  //       this.getSongs();
-  //     },
-  //       (error: Error) => {
-  //         console.log(error);
-  //       });
+  deleteDoctor(id: number) {
+    this.api.deleteDoctor(id)
+      .subscribe(() => {
+        this.getDoctori();
+      },
+        (error: Error) => {
+          console.log(error);
+        });
 
-  // }
+  }
 
   showM1(id: number) {
     this.editTratamentModal.initialize(id);
   }
 
-  // showM2(id: number) {
-  //   this.editArtistModal.initialize(id);
-  // }
+  showM2(id: number) {
+    this.editPacientModal.initialize(id);
+  }
 
-  // showM3(id: number) {
-  //   this.editSongModal.initialize(id);
-  // }
+  showM3(id: number) {
+    this.editDoctorModal.initialize(id);
+  }
 
   onEditFinished(event: string) {
     if (event === 'tratament') {
       this.getTratamente();
     }
-    // if (event === 'artist') {
-    //   this.getArtists();
-    // }
-    // if (event === 'song') {
-    //   this.getSongs();
-    // }
-
-
+    if (event === 'pacient') {
+      this.getPacienti();
+    }
+    if (event === 'doctor') {
+      this.getDoctori();
+    }
   }
-
 }
