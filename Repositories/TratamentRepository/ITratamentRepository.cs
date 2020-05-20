@@ -13,6 +13,6 @@ namespace ProiectMDS.Repositories.TratamentRepository
         Tratament Create(Tratament Tratament);
         Tratament Update(Tratament Tratament);
         Tratament Delete(Tratament Tratament);
-
+        List<Tratament> GetByDiagnosticId(int Id);
     }
 }

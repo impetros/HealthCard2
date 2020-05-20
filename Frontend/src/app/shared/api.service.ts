@@ -59,6 +59,11 @@ export class ApiService {
     return this.http.get(this.baseUrl + '/tratament', { headers: this.header });
   }
 
+  getTratamenteDiagnostic(id: number) {
+    return this.http.get(this.baseUrl + '/tratament/diagnostic/' + id.toString(), { headers: this.header });
+  }
+
+
   getDiagnostice() {
     return this.http.get(this.baseUrl + '/diagnostic', { headers: this.header });
   }

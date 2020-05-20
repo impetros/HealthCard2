@@ -32,6 +32,12 @@ namespace ProiectMDS.Controllers
             return ITratamentRepository.Get(id);
         }
 
+        [HttpGet("Diagnostic/{id}")]
+        public ActionResult<IEnumerable<Tratament>> GetByDiagnosticId(int id)
+        {
+            return ITratamentRepository.GetByDiagnosticId(id);
+        }
+
         // POST: api/Tratament
         [HttpPost]
         public Tratament Post(TratamentDTO value)

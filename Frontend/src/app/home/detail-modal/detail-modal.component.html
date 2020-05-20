@@ -14,19 +14,26 @@
           <p *ngFor = "let pacient of pacient.pacientNume" > {{pacient}} </p>
           <p> Pacient - {{pacient.pacientNume}} {{pacient.pacientPrenume}}</p>
             
-          <ul>
+          <ul *ngIf="diagnostice?.length > 0">
+            Diagnosticat de:
             <li *ngFor="let diagnostic of diagnostice">
               {{diagnostic.doctor.doctorNume}} {{diagnostic.doctor.doctorPrenume}}
             </li>
           </ul>
 
-        </div>
-        </div>
-        <div class="row">
-          <div class="button">
-       
-          <!-- <button  type="button" class="btn btn-dark" (click)="addToCart(album)">Add to cart</button> -->
-         
+          <ul *ngIf="tratamente?.length > 0">
+            Tratamente:
+            <li *ngFor="let tratament of tratamente">
+              <ul>
+                <li>Medicament: {{tratament.medicament.nume}}</li>
+                <li>Dozaj: {{tratament.dozaj}}</li>
+                <li>Data administrare: {{tratament.dataAdministrare}}</li>
+                <li>Data terminare:{{tratament.dataTerminare}}</li>
+              </ul>
+              <br>
+            </li>
+          </ul>
+
         </div>
         </div>
       </div>

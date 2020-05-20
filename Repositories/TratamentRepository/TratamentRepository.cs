@@ -51,5 +51,16 @@ namespace ProiectMDS.Repositories.TratamentRepository
             _context.SaveChanges();
             return result.Entity;
         }
+
+        public List<Tratament> GetByDiagnosticId(int Id)
+        {
+            return _context.Tratamente
+                .Where(p => p.DiagnosticId == Id)
+                .Include("Medicament")
+                .Include("Diagnostic")
+                .Include("Diagnostic.Pacient")
+                .Include("Diagnostic.Doctor")
+                .ToList();
+        }
     }
 }
